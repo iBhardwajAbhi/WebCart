@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  background-color: whitesmoke;
+}
+
+button{
+  text-transform: uppercase;
+  background-color: blueviolet;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+input{
+  padding: 5px;
+  font-size: 18px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+textarea{
+padding: 5px;
+  font-size: 18px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+
+}
+
+button:hover {
+  background-color: violet;
+  color: black;
+  
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card{
+  width: 300px;
+  margin: 15px 15px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover{
+  background-color: lightcyan;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+.card img{
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+}
+
+.card h1{
+  font-size: 18px;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.card h2{
+  font-size: 18px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.card p{
+  min-height: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.card button{
+  width: 100%;
+}
+
+.login-form{
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label{
+  margin: 5px;
+}
+
+.login-form p{
+  align-self: center;
+  margin: 10px;
+  font-size: 24px;
+}
+
+.register-form{
+  width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form p{
+  align-self: center;
+    margin: 10px;
+    font-size: 24px;
+}
+
+.right{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.left{
+  width: 300px;
+  padding: 20px;
+  border-right: 1px solid black;
+}
+
+#filters{
+  padding: 10px;
+  margin: 10px;
+}
+#filters div{
+  margin: 10px;
+  font-size: 18px;
+}
+#categories{
+  padding: 10px;
+    margin: 10px;
+}
+#categories div{
+  margin: 10px;
+  font-size: 18px;
+}
+.home{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.navbar{
+  height: 70px;
+  width: 100%;
+  
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+  
+}
+
+.nav-left{
+  width: 300px;
+
+  text-align: center;
+}
+
+.nav-right{
+  margin-left: auto;
+  margin-right: 50px;
+}
+.lnk{
+  
+  margin: 40px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.admin-menu{
+  display: flex;
+  height: 100px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pay{
+  width: 50%;
+  margin: auto
+}
+
+.head{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+}
